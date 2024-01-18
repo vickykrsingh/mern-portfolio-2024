@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaReact,FaNodeJs,FaPython,FaHtml5 ,FaCss3, FaGithub} from 'react-icons/fa'
+import {FaReact,FaPython,FaHtml5 ,FaCss3, FaGithub} from 'react-icons/fa'
 import {SiNextdotjs,SiExpress,SiMysql,SiJavascript, SiMongodb, SiTypescript} from 'react-icons/si'
 
 function AnimatedBg() {
