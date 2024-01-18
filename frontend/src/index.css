@@ -13,7 +13,7 @@ body {
   @apply box-border bg-gradient-to-r from-zinc-800 via-neutral-900 to-stone-800 background-animate text-gray-100 relative;
 }
 .btn-primary {
-  @apply bg-cyan-600 font-semibold text-white md:mx-0 mx-auto py-3 px-6 flex items-center gap-2 border-2 border-transparent duration-200 hover:text-cyan-600 hover:shadow-lg hover:scale-105 hover:border-cyan-600 hover:bg-transparent ;
+  @apply bg-cyan-600 font-semibold text-white md:mx-0 mx-auto sm:py-3 py-1 md:px-6 px-3 sm:text-base text-xs flex items-center gap-2 border-2 border-transparent duration-200 hover:text-cyan-600 hover:shadow-lg hover:scale-105 hover:border-cyan-600 hover:bg-transparent ;
 }
 
 .background-animate {

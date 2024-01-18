@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Bot from "./components/Bot";
+import { Toaster } from "react-hot-toast";
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
       <Route path="/hire" element={<Hireme/>}/>
       <Route path="/projects" element={<Project/>}/>
       <Route path="/contact" element={<Contact/>}/>
+      {/* <Toaster/> */}
     </Routes>
   );
 };

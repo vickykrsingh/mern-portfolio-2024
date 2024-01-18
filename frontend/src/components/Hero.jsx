@@ -23,7 +23,7 @@ const Hero = () => {
           Full-Stack MERN Developer Building Seamless Digital Experiences
           </h4>
           <div className="flex gap-4">
-          <button className="btn-primary mt-8">Resume</button>
+          <a target="_blank" href="https://drive.google.com/file/d/1b7k6i-3tJWfHo983kNDMFxgP0xIbkP9f/view?usp=drive_link"><button className="btn-primary mt-8">Resume</button></a>
           <Link to="/contact" className="btn-primary mt-8">Contact</Link>
           </div>
           <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">

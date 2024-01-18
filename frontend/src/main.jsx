@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Bot from "./components/Bot";
 import Footer from "./components/Footer";
 import AnimatedBg from "./components/AnimatedBg";
+import { Toaster } from "react-hot-toast";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -15,6 +16,7 @@ ReactDOM.render(
     <Bot/>
     <App />
     <Footer/>
+    <Toaster/>
   </BrowserRouter>,
   document.getElementById("root")
 );

@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import project1 from "../assets/images/project-1.jpg";
 import project2 from "../assets/images/project-2.jpg";
 import project3 from "../assets/images/project-3.jpg";
+import project4 from "../assets/images/project-4.png";
+import project5 from "../assets/images/project-5.png";
 
 const Project = () => {
   const [category,setCategory] = useState("all")
@@ -32,6 +34,24 @@ const Project = () => {
       github_link: "https://github.com/vickykrsingh/myportfolio.git",
       live_link: "https://vickykumar.netlify.app",
       tech_stack: "React.js Firebase",
+      category:"frontend"
+    },
+    {
+      _id:4,
+      img: project4,
+      name: "Pokemon Pokedex",
+      github_link: "https://github.com/vickykrsingh/TheGoodGameTheory",
+      live_link: "https://the-good-game-theory-one.vercel.app/",
+      tech_stack: "React.js tailwindcss contextApi",
+      category:"frontend"
+    },
+    {
+      _id:5,
+      img: project5,
+      name: "Ecommerce frontend",
+      github_link: "https://github.com/vickykrsingh/ecom-tailwind",
+      live_link: "https://ecom-tailwind-98kq.vercel.app/",
+      tech_stack: "React.js tailwindCss Redux DaisyUI",
       category:"frontend"
     }
   ];
@@ -76,10 +96,10 @@ const Project = () => {
         {project.map((p) => (
           <div key={p._id} className="bg-slate-500 rounded-lg relative group overflow-hidden border-4 hover:scale-95 duration-200 border-cyan-700">
             <img class="h-auto max-w-full rounded-lg" src={p.img} alt="" />
-            <div class="absolute -top-[100%] z-0 w-full h-full bg-gray-700 duration-300 group-hover:top-[0%] p-3 flex flex-col items-center justify-center gap-1">
-              <h3 className="font-semibold tracking-wide">Project Name : <span className="">{p.name}</span></h3>
-              <h4 className="text-xs tracking-wide">Tech stack : {p.tech_stack} </h4>
-              <div className="flex gap-3 items-center justify-center mt-5">
+            <div class="absolute -top-[120%] z-0 w-full h-full bg-gray-700 duration-300 group-hover:top-[0%] p-3 flex flex-col items-center justify-center gap-1">
+              <h3 className="font-semibold tracking-wide text-xs">Project Name : <span className="">{p.name}</span></h3>
+              <h4 className="text-xs tracking-wide text-center">Tech stack : {p.tech_stack} </h4>
+              <div className="flex gap-3 items-center justify-center mt-3">
                 <a href={p.github_link} target="_blank"><button className="btn-primary">Code</button></a>
                 <a href={p.live_link} target="_blank"><button className="btn-primary">Live</button></a>
               </div>
