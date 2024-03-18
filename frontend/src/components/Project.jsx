@@ -60,7 +60,7 @@ const Project = () => {
       img: project6,
       name: "Snapchat clone",
       github_link: "https://github.com/vickykrsingh/snapchat_clone.git",
-      live_link: "snapchat-clone-ashy-alpha.vercel.app",
+      live_link: "https://snapchat-clone-ashy-alpha.vercel.app",
       tech_stack: "Next.js Typescript Mongodb ShadCn UI",
       category:"fullstack"
     }
