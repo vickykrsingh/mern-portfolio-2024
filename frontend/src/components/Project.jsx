@@ -4,6 +4,7 @@ import project2 from "../assets/images/project-2.jpg";
 import project3 from "../assets/images/project-3.jpg";
 import project4 from "../assets/images/project-4.png";
 import project5 from "../assets/images/project-5.png";
+import project6 from "../assets/images/snapnext_img.png"
 
 const Project = () => {
   const [category,setCategory] = useState("all")
@@ -53,6 +54,15 @@ const Project = () => {
       live_link: "https://ecom-tailwind-98kq.vercel.app/",
       tech_stack: "React.js tailwindCss Redux DaisyUI",
       category:"frontend"
+    },
+    {
+      _id:6,
+      img: project6,
+      name: "Snapchat clone",
+      github_link: "https://github.com/vickykrsingh/snapchat_clone.git",
+      live_link: "snapchat-clone-ashy-alpha.vercel.app",
+      tech_stack: "Next.js Typescript Mongodb ShadCn UI",
+      category:"fullstack"
     }
   ];
 
